@@ -16,7 +16,6 @@ const images = {
 
 const styles = {
     card: {
-        background: 'white',
         height: '100%',
         marginTop: '2rem'
     },
@@ -39,7 +38,6 @@ const styles = {
         fontSize: 13,
         width: '68%',
         margin: 'auto',
-        fontWeight: 700,
         padding: 15
     },
     priceMain: {

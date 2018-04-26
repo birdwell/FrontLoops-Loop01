@@ -2291,7 +2291,6 @@ var images = {
 
 var styles = {
     card: {
-        background: 'white',
         height: '100%',
         marginTop: '2rem'
     },
@@ -2314,7 +2313,6 @@ var styles = {
         fontSize: 13,
         width: '68%',
         margin: 'auto',
-        fontWeight: 700,
         padding: 15
     },
     priceMain: {
@@ -2410,7 +2408,7 @@ customElements.define('price-card', PriceCard);
 'use strict';
 
 require('./price-card.js');
-},{"./price-card.js":47}],72:[function(require,module,exports) {
+},{"./price-card.js":47}],73:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -2533,5 +2531,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[72,45])
+},{}]},{},[73,45])
 //# sourceMappingURL=/dist/f4d820d199f4c4e40fdac0e9b6aa3298.map

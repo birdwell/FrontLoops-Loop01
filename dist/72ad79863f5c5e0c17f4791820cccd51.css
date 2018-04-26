@@ -24,6 +24,13 @@ price-card {
 	text-align: center;
 	overflow: hidden;
 	min-width: 200px;
-	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-radius: 4px;
 	flex-grow: 1;
+	cursor: pointer;
+	background: white;
+}
+
+price-card:hover {
+	background: #f6f6f6;
 }
