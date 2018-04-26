@@ -1,0 +1,29 @@
+body {
+	background: #85a5d4;
+	font-family: Roboto;
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+.price-cards {
+    display: flex;
+    justify-content: center;
+	width: 60vw;
+	min-width: 200px;
+	min-height: 325px;
+	margin: auto;
+	margin-top: 4rem;
+	background: white;
+	border-radius: 4px;
+	box-shadow: 0px 3px 6px 0px #7b7b7b;
+	flex-wrap: wrap;
+}
+
+price-card {
+	width: 33%;
+	text-align: center;
+	overflow: hidden;
+	min-width: 200px;
+	margin-bottom: 15px;
+	flex-grow: 1;
+}
